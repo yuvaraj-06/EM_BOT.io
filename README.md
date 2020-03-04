@@ -5,12 +5,10 @@ without proper knowledge of the situation always ends with more casualties than
 we expect. This is where we step in. We have an idea for a small and 
 cost-effective rover that can provide a live video feed of the area and can be controlled via a web server. 
 We are using IBM CLOUD to encapsulate the  live video feed from camera with object detection which also plays
-a vital role in disaster management.Our main aim is to assess situations more accurately before we have to risk any lives. The video is lag 
-free and can also function during pitch darkness. We are also planning to use fire-resistant material if we 
-get our hands on it. It is powered by a power bank and can work for an hour or two independently. It’s sad 
-to say that a rover can be replaced but a human being cannot!! If provided with proper funding, this rover 
+a vital role in disaster management and we are also using ultra sonic sensor to make the rover autonomous .Our main aim is to assess situations more accurately before we have to risk any lives.The video is lag free and can also function during pitch darkness. We are also planning to use fire-resistant material if we get our hands on it. It is powered by a power bank and can work for an hour or two independently. It’s sad to say that a rover can be replaced but a human being cannot!! If provided with proper funding, this rover 
 can be a revolutionary breakthrough for emergencies.  
 Parts/software being used are:  
+
 1. Raspberry pi 3 
 2. Pi cam 
 3. IBM Cloud
@@ -22,3 +20,4 @@ Parts/software being used are:
 9. Html/javascript for web page integration 
 10. Vnc viewer 
 11. A special module for live video feed through the camera 
+12. Ultra Sonic Senosr 
