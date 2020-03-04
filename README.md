@@ -24,3 +24,11 @@ Parts/software being used are:
 9. Html/javascript for web page integration 
 10. Vnc viewer 
 11. A special module for live video feed through the camera 
+
+Step-1:-Live_Video_Feed Folder in the repo is a python cum html file which has controls of rover linked with a python script.
+
+Step-2:-Directions Cgi folder in this repo has all input and oupt pin GPIO pins for Raspberry Pi which is linked with the above folder.
+
+Step-3:-
+Step-2:-
+
