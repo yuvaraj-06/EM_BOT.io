@@ -32,5 +32,4 @@ Step6:- Open IBM_CLOUD_STREAM and then run the ibmcloud.py to get live cloud-bas
 Step7:- Open the Autonomous_Mode folder and run ultratime.py in Raspberry pi terminal to enable autonomous mode.
 Step8:- To get live video stream open the IBM_CLOUD_STREAM and open the stream video browser in terminal to get YOLOv3 object detection.
 
-STEPS:-
 
