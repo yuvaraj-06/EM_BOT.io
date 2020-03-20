@@ -20,3 +20,24 @@ Parts/software being used are:
 10. Vnc viewer 
 11. A special module for live video feed through the camera 
 12. Ultra Sonic Senosr 
+
+
+STEPS:-
+
+Step1:- connect Raspberry pi and host laptop to same hotspot or wifi network.
+
+Step2:- get the IP address of Raspberry pi, open vnc viewer and connect Raspberrypi using the IP address.
+
+Step3:- type ./gpiocreate.cgi in raspberry pi terminal.
+
+Step4:- And Open Live Video Feed File and run cam.py file and then go to your IP address in chrome/Any search Engine.
+
+Step5:- Now, if you see on the webpage, which is hosted through our IP address and then you can control the rover using buttons present          on the webpage.
+
+Step6:- Open IBM_CLOUD_STREAM and then run the ibmcloud.py to get live cloud-based object detection.
+
+Step7:- Open the Autonomous_Mode folder and run ultratime.py in Raspberry pi terminal to enable autonomous mode.
+
+Step8:- To get live video stream open the IBM_CLOUD_STREAM and open the stream video browser in terminal to get YOLOv3 object detection.
+
+
