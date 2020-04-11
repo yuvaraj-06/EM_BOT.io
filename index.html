@@ -51,9 +51,15 @@
     <!-- The Starting Info Over Here -->
     <div id="starting-info">
         <h3 class="light"></h3>
+         <div class="login100-pic js-tilt" data-tilt>
+			<img  style="width:80%;" src="d4.png" hspace="10"></img>
+         </div>
         
         <h1 class="brand">Astute<span></span> &nbsp;<span>Bots</span></h1>
-        <img  style="width:90%;margin-top: 20%;" src="rover1.png"></img> 
+        <div class="login100-pic js-tilt" data-tilt>
+	         <img  style="width:70%;margin-top: 5%;" src="rover1.png"></img> 
+         </div>
+        
         
     </div>
 
@@ -153,9 +159,9 @@
 
 
         <!--Judges Button & Panel-->
-        <div><a class="judges-button"><i class="fa fa-car"></i>Rover</a><a class="judges-button">Rover<i class="fa fa-gavel"></i></a><div class="bottom-left"><p>Our Rover controls.</p></div>
+        <div><a class="judges-button"><i class="fa fa-car"></i>OUR DEVICES</a><a class="judges-button">Rover<i class="fa fa-gavel"></i></a><div class="bottom-left"><p>Our Rover controls.</p></div>
             <div id="judge-box" class="bottom-left">
-                <h1 style="text-align:left;padding-left:15px;">ROVER</h1>
+                <h1 style="text-align:left;padding-left:15px;">ROVER AND DRONE</h1>
                 <div class="judge">
                   <div class="judge-info">
                     <div class="judge-image"><img src="rover1.png"></div>
@@ -205,6 +211,12 @@
     </div>
   </div>
   <div class="box"></div>
+ <script src="tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
  <script async>
 	 (function(w, d)
 	  { w.CollectId = "5e8fe8377a3ed14fbd198ad6"; var h = d.head || d.getElementsByTagName("head")[0];
